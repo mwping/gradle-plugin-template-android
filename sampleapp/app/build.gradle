@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'com.mwping.android.plugin.greeting'
+    id 'com.mwping.android.plugin.template-android'
 }
 
 android {

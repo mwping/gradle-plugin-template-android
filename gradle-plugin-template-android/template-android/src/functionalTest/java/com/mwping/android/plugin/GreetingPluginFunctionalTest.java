@@ -1,4 +1,4 @@
-package com.example.plugin;
+package com.mwping.android.plugin;
 
 import org.gradle.testkit.runner.BuildResult;
 import org.gradle.testkit.runner.GradleRunner;

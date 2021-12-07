@@ -8,11 +8,15 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies
     mavenCentral()
+    google()
+    gradlePluginPortal()
 }
 
 dependencies {
     // Use JUnit test framework for unit tests
     testImplementation("junit:junit:4.13")
+    implementation("com.android.tools.build:gradle:7.1.0-beta04")
+    implementation(gradleApi())
 }
 
 group = "com.mwping.android.plugin"
@@ -21,8 +25,8 @@ version = "1.0.0"
 gradlePlugin {
     // Define the plugin
     val greeting by plugins.creating {
-        id = "$group.greeting"
-        implementationClass = "com.example.plugin.GreetingPlugin"
+        id = "$group.template-android"
+        implementationClass = "com.mwping.android.plugin.AndroidTemplatePlugin"
     }
 }
 
