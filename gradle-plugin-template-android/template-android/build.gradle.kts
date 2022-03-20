@@ -15,7 +15,7 @@ repositories {
 dependencies {
     // Use JUnit test framework for unit tests
     testImplementation("junit:junit:4.13")
-    implementation("com.android.tools.build:gradle:7.1.0-beta04")
+    implementation("com.android.tools.build:gradle:7.1.2")
     implementation(gradleApi())
 }
 
